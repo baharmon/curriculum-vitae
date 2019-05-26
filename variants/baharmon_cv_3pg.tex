@@ -1,0 +1,469 @@
+% !BIB TS-program = biber
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{baharmon_cv}
+\usepackage{fancyhdr}
+ 
+%\pagestyle{fancy}
+%\fancyhf{}
+ 
+\usepackage[backend=biber, style=authoryear, sorting=ydnt, natbib=true, url=true, doi=false, maxnames=24]{biblatex}
+\addbibresource{publications.bib}
+
+%\newcommand{\makeauthorbold}[1]{%
+%\DeclareNameFormat{author}{%
+%  \ifnumequal{\value{listcount}}{1}
+%    {\ifnumequal{\value{liststop}}{1}
+%      {\expandafter\ifstrequal{##1}{#1}{\textbf{##1\addcomma\addspace ##4\addcomma\isdot}}{##1\addcomma\addspace ##4\addcomma\isdot}}
+%      {\expandafter\ifstrequal{##1}{#1}{\textbf{##1\addcomma\addspace ##4}}{##1\addcomma\addspace ##4}}}
+%    {\ifnumless{\value{listcount}}{\value{liststop}}
+%      {\expandafter\ifstrequal{##1}{#1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4}}{\addcomma\addspace ##1\addcomma\addspace ##4}}
+%      {\expandafter\ifstrequal{##1}{#1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}%
+%    }%
+%}%
+%}
+%\makeauthorbold{Harmon}
+
+\setlength\parindent{0pt}
+\renewcommand{\baselinestretch}{1.15}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace*{0.75cm}
+\namesection{Brendan}{Harmon}
+{\vspace*{0.1cm} 
+\href{mailto:brendan.harmon@gmail.com}{brendan.harmon@gmail.com} | 919.622.8414 \\
+\urlstyle{same}
+\url{http://tangible-landscape.github.io/} \\
+\url{http://baharmon.github.io/}\\ 
+
+%| \href{mailto:baharmon@ncsu.edu}{baharmon@ncsu.edu}\\
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{minipage}[t]{0.33\textwidth} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\end{minipage} 
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace*{0.2cm}
+\section{Education} 
+\begin{minipage}[t]{0.85\textwidth} 
+\runsubsection{North Carolina State University}
+\descript{| PhD in Design}
+\end{minipage}
+\begin{minipage}[t]{0.15\textwidth} 
+\location{2013 - 2017}
+Raleigh, NC
+\end{minipage}
+Co-major: Forestry and Environmental Science
+\vspace*{0.1cm}
+
+\begin{minipage}[t]{0.85\textwidth} 
+\runsubsection{University of Oxford}
+\descript{| MPhil in Geography} % \& the Environment}
+\end{minipage}
+\begin{minipage}[t]{0.15\textwidth} 
+\location{2010 - 2012}
+Oxford, UK
+\end{minipage}
+Focus: Biodiversity, Conservation, and Management
+\vspace*{0.1cm}
+
+\begin{minipage}[t]{0.85\textwidth} 
+\runsubsection{Harvard Graduate School of Design}
+\descript{| MLA}
+\end{minipage}
+\begin{minipage}[t]{0.20\textwidth} 
+\location{2005 - 2008}
+Cambridge, MA
+\end{minipage}
+%Landscape Architecture
+\vspace*{0.1cm}
+
+\begin{minipage}[t]{0.85\textwidth} 
+\runsubsection{Sewanee: the University of the South}
+\descript{| BA}
+\end{minipage}
+\begin{minipage}[t]{0.15\textwidth} 
+\location{2001 - 2005}
+Sewanee, TN
+\end{minipage}
+%Study Abroad: Syracuse University in Florence, Italy \\
+Major: Art History
+\vspace*{0.1cm}
+
+\sectiondivider
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Teaching and Research}
+\begin{minipage}[t]{0.85\textwidth}
+\renewcommand{\baselinestretch}{1.75}
+\runsubsection{Louisiana State University}
+\descript{| Assistant Professor}
+\department{Robert Reich School of Landscape Architecture}\\
+\end{minipage}
+\begin{minipage}[t]{0.15\textwidth} 
+\location{2017 - present}
+Baton Rouge, LA
+\end{minipage}\\
+
+
+\begin{minipage}[t]{0.85\textwidth}
+\renewcommand{\baselinestretch}{1.75}
+\runsubsection{North Carolina State University}
+\descript{| Postdoctoral Fellow}
+\department{Center for Geospatial Analytics}\\
+\end{minipage}
+\begin{minipage}[t]{0.15\textwidth} 
+\location{2017}
+Raleigh, NC
+\end{minipage}\\
+
+\begin{minipage}[t]{0.85\textwidth}
+\renewcommand{\baselinestretch}{1.75}
+\runsubsection{North Carolina State University}
+\descript{| Instructor}
+\department{Department of Landscape Architecture}\\
+\end{minipage}
+\begin{minipage}[t]{0.15\textwidth} 
+\location{2013 - 2015}
+Raleigh, NC
+\end{minipage}\\
+
+%\href{http://www4.ncsu.edu/~baharmon/gisfordesigners/index.html}{GIS for Designers}
+%\& \href{http://www4.ncsu.edu/~baharmon/teaching.html}{3D Digital Design}
+
+\begin{minipage}[t]{0.85\textwidth} 
+\renewcommand{\baselinestretch}{1.75}
+\runsubsection{Harvard Graduate School of Design}
+\descript{| 3D Teaching Assistant}
+ \department{Fabrication Lab} | Rapid Prototyping Group
+\end{minipage}
+\begin{minipage}[t]{0.15\textwidth} 
+\location{2007 - 2008}
+Cambridge, MA
+\end{minipage}\\
+
+%\begin{minipage}[t]{0.80\textwidth} 
+%\runsubsection{NCSU Center for Geospatial Analytics}\\
+%\descript{Research Assistant}
+%\end{minipage}
+%\begin{minipage}[t]{0.20\textwidth} 
+%\location{2013 - present | Raleigh, NC}
+%\end{minipage}\\
+%
+%Geovisualization
+%\\
+%
+%\begin{minipage}[t]{0.80\textwidth} 
+%\runsubsection{Redlands Institute}\\
+%\descript{Research Assistant}
+%\end{minipage}
+%\begin{minipage}[t]{0.20\textwidth} 
+%\location{2010 | Redlands, CA}
+%\end{minipage}\\
+%
+%Spatial decision support systems
+%\\
+
+\sectiondivider
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Professional practice}
+\begin{minipage}[t]{0.85\textwidth} 
+\runsubsection{EDAW|AECOM}
+\descript{| Landscape Designer }
+\end{minipage}
+\begin{minipage}[t]{0.15\textwidth} 
+\location{2008 - 2009}
+Guangzhou%, PRC
+\end{minipage}\\
+%Lead designer for projects including streetscapes, urban plazas, and parks
+%\begin{tightemize}
+%\item ...
+%\item ... 
+%\item ...
+%\end{tightemize}
+
+\sectiondivider
+
+%\clearpage
+
+% \sectiondivider
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MEMBERSHIP
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Membership}
+%\begin{minipage}[t]{0.80\textwidth} 
+%\runsubsection{NCSU GeoForAll Lab}
+%\descript{| Member }
+%\end{minipage}
+%\begin{minipage}[t]{0.20\textwidth} 
+%\location{2013 - present | Raleigh, NC}
+%\end{minipage}
+%\\
+
+%\begin{minipage}[t]{0.80\textwidth} 
+%\runsubsection{NCSU Center for Geospatial Analytics}
+%\descript{| Member }
+%\end{minipage}
+%\begin{minipage}[t]{0.20\textwidth} 
+%\location{2013 - present | Raleigh, NC}
+%\end{minipage}
+%\\
+
+%\begin{minipage}[t]{0.80\textwidth} 
+%\runsubsection{Royal Geographic Society}
+%\descript{| Post-graduate fellow }
+%\end{minipage}
+%\begin{minipage}[t]{0.20\textwidth} 
+%\location{2011 - present | London, UK}
+%\end{minipage}
+%\\
+
+%\sectiondivider
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Awards} 
+%\begin{tabular}{rll}
+%date     & ... \\
+%date     & ... \\
+%\end{tabular}
+%\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     THESIS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\section{Doctoral disseration}
+%\vspace*{0.1cm}
+%\runsubsection{Tangible Landscape}\\ 
+%\descript{Committee:  Gene Bressler, Ross Meentemeyer, Helena Mitasova, \& Art Rice} 
+%\vspace*{0.2cm}
+%%The design of Tangible Landscape -- a novel tangible user interface for intuitively modeling landscapes. Tangible Landscape couples a physical landscape model with a digital model through a real-time cycle of 3d scanning, geospatial modeling and simulation, and projection. By bridging the analog - digital divide Tangible Landscape makes geospatial modeling more intuitive and creative.
+%%
+%Tangible Landscape -- an open source tangible interface powered by GRASS GIS -- 
+%enables users to hold GIS in their hands, feeling the shape of the earth, sculpting its topography, and directing the flow of water. 
+%%
+%Tangible Landscape uses a near real-time feedback cycle of interaction, 3D scanning, point cloud processing, geospatial computation, and projection to physically, interactively manifest geospatial data so that users can naturally feel it, see it, and shape it. 
+%%
+%%This makes GIS far more intuitive and accessible for beginners, empowers geospatial experts, and creates new exciting opportunities for developers - like gaming with GIS.
+%\\
+%
+%\sectiondivider
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     INTERESTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\section{Research interests}
+%
+%\vspace*{0.2cm}
+%\runsubsection{Landscape dynamics} \\ \vspace*{0.1cm}
+%\normalsize{
+%landscape ecology \textbullet{} biogeomorphology \textbullet{} process-form interaction \textbullet{} landscape evolution}
+%\\
+%\vspace*{0.2cm}
+%
+%\runsubsection{Geospatial analytics} \vspace{0.1em} \\ \vspace*{0.1cm}
+%\normalsize{
+%3D GIS \textbullet{} multidimensional modeling \textbullet{} geovisualization \textbullet{} geospatial fabrication}
+%\\
+%\vspace*{0.2cm}
+%
+%\runsubsection{Human-computer interaction} \vspace{0.1em} \\ \vspace*{0.1cm}
+%\normalsize{
+%tangible user interfaces \textbullet{} embodied cognition}
+%\\
+%
+%\sectiondivider
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Skills}
+%\normalsize{
+%\begin{minipage}[t]{0.3\textwidth} 
+%\subsection{Programming}
+%%\location{Over x lines:}
+%\vspace*{0.1cm}
+%Python \textbullet{} HTML/CSS \textbullet{} \LaTeX\ \\ 
+%%\\
+%\linespread{0.1}
+%%
+%\subsection{GIS}
+%\vspace*{0.1cm}
+%GRASS GIS \textbullet{} ArcGIS \textbullet{} Leaflet \\ %QGIS 
+%%\\
+%\linespread{0.1}
+%%
+%\subsection{Remote sensing}
+%\vspace*{0.1cm}
+%lidar \textbullet{} UAV \\ 
+%%\\
+%\linespread{0.1}
+%\end{minipage} 
+%%
+%\hfill
+%%
+%\begin{minipage}[t]{0.33\textwidth} 
+%\subsection{CAD}
+%\vspace*{0.1cm}
+%Rhino \textbullet{} AutoCAD \textbullet{} Blender \textbullet{} etc. \\ 
+%%\\
+%\linespread{0.1}
+%%
+%\subsection{CAM}
+%\vspace*{0.1cm}
+%CNC \textbullet{} 3D printing \\ 
+%%\\
+%\linespread{0.1}
+%%
+%\subsection{Fabrication}
+%\vspace*{0.1cm}
+%woodworking \textbullet{} metal casting \\ 
+%%\\
+%\linespread{0.1}
+%\end{minipage} 
+%%
+%\hfill
+%%
+%\begin{minipage}[t]{0.2\textwidth} 
+%\subsection{Graphics}
+%\vspace*{0.1cm}
+%Adobe~CC \textbullet{} Inkscape \textbullet{} etc. \\ 
+%%\\
+%\linespread{0.1}
+%%
+%\subsection{Arts}
+%\vspace*{0.1cm}
+%drawing \\ 
+%%\\
+%\linespread{0.1}
+%\end{minipage} 
+%%
+%\\
+%}
+%
+%\sectiondivider
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+%\begin{minipage}{0.9\textwidth} 
+\begin{minipage}{0.45\textwidth} 
+\textbf{Website:} \href{http://tangible-landscape.github.io/}{http://tangible-landscape.github.io/} %\vspace{0.45em} %\\ 
+%\textbf{GitHub:} \href{https://github.com/baharmon}{https://github.com/baharmon} %\vspace{0.36em} \\ 
+%\textbf{LinkedIn:}  \href{https://www.linkedin.com/in/baharmon}{https://www.linkedin.com/in/baharmon} \vspace{0.36em} \\ 
+%\textbf{ORCID:} \href{orcid.org/0000-0002-6218-9318}{orcid.org/0000-0002-6218-9318} \vspace{0.36em} \\ 
+%\textbf{Academia:} \href{https://ncsu.academia.edu/BrendanHarmon}{https://ncsu.academia.edu/BrendanHarmon} \vspace{0.36em} \\ 
+%\textbf{ResearchGate:}  \href{https://www.researchgate.net/profile/Brendan_Harmon2}{Brendan\_Harmon2} \vspace{0.36em} \\ 
+%\textbf{Google+:}  \href{https://plus.google.com/u/0/b/112857255995703553144/112857255995703553144/}{NCSU OSGeoREL} \vspace{0.36em} \\ 
+%\textbf{YouTube:}  \href{https://www.youtube.com/channel/UCc37pVh-WE46Xkqeq-KZQsA}{NCSU OSGeoREL}\\
+\end{minipage} 
+\begin{minipage}{0.45\textwidth} 
+\textbf{GitHub:} \href{https://github.com/baharmon}{https://github.com/baharmon} 
+%\textbf{Google+:}  \href{https://plus.google.com/u/0/b/112857255995703553144/112857255995703553144/}{NCSU GeoForAll Lab} \vspace{0.36em} \\
+%\textbf{ResearchGate:} \href{https://www.researchgate.net/profile/Brendan\_Harmon2/}{https://www.researchgate.net/profile/Brendan\_Harmon2/}
+%\textbf{Academia:} \href{https://lsu.academia.edu/BrendanHarmon}{https://lsu.academia.edu/BrendanHarmon}
+\end{minipage} 
+
+%\sectiondivider
+
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\baselinestretch}{1.1}
+
+\section{Publications} 
+\begin{refsection}
+\nocite{*}
+\setlength\bibitemsep{0.75em}
+\sectiondivider \linebreak
+
+\printbibliography[title={Books\vspace{0.2em}},type=book, heading=subbibliography]
+\sectiondivider \linebreak
+
+\printbibliography[title={Papers %Peer reviewed papers \& conference proceedings
+\vspace{0.2em}},keyword=peer_reviewed, heading=subbibliography]
+\sectiondivider \linebreak
+
+%\printbibliography[title={Peer reviewed papers\vspace{0.2em}},type=article, heading=subbibliography]
+%\sectiondivider \linebreak
+%
+%\printbibliography[title={Peer reviewed conference proceedings\vspace{0.2em}},type=inproceedings, heading=subbibliography]
+%\sectiondivider \linebreak
+
+\printbibliography[title={Book chapters\vspace{0.2em}},type=incollection, heading=subbibliography]
+\sectiondivider \linebreak
+
+\printbibliography[title={Select presentations\vspace{0.2em}},type=unpublished, heading=subbibliography]
+\end{refsection}
+
+%\end{minipage} 
+\end{document}  \documentclass[]{article}

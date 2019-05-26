@@ -1,0 +1,101 @@
+% !BIB TS-program = biber
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{baharmon_letter}
+\usepackage{fancyhdr}
+ 
+%\pagestyle{fancy}
+%\fancyhf{}
+ 
+\usepackage[backend=biber, style=authoryear, sorting=ydnt, natbib=true, url=false, doi=false, maxnames=16]{biblatex}
+\addbibresource{publications.bib}
+
+%\newcommand{\makeauthorbold}[1]{%
+%\DeclareNameFormat{author}{%
+%  \ifnumequal{\value{listcount}}{1}
+%    {\ifnumequal{\value{liststop}}{1}
+%      {\expandafter\ifstrequal{##1}{#1}{\textbf{##1\addcomma\addspace ##4\addcomma\isdot}}{##1\addcomma\addspace ##4\addcomma\isdot}}
+%      {\expandafter\ifstrequal{##1}{#1}{\textbf{##1\addcomma\addspace ##4}}{##1\addcomma\addspace ##4}}}
+%    {\ifnumless{\value{listcount}}{\value{liststop}}
+%      {\expandafter\ifstrequal{##1}{#1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4}}{\addcomma\addspace ##1\addcomma\addspace ##4}}
+%      {\expandafter\ifstrequal{##1}{#1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}%
+%    }%
+%}%
+%}
+%\makeauthorbold{Harmon}
+
+\setlength\parindent{0pt}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vspace*{0.75cm}
+\namesection{Brendan}{Harmon}
+{\vspace*{0.1cm} \urlstyle{same}\url{http://baharmon.github.io/}\\ 
+\href{mailto:brendan.harmon@gmail.com}{brendan.harmon@gmail.com} | 919.622.8414 \\
+%| \href{mailto:baharmon@ncsu.edu}{baharmon@ncsu.edu}\\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace*{0.5cm}
+\section{Publications} 
+\begin{refsection}
+\nocite{*}
+\setlength\bibitemsep{0.75em}
+\vspace*{0.5cm}
+%\sectiondivider 
+%\linebreak
+
+\printbibliography[title={Books\vspace{0.2em}},type=book, heading=subbibliography]
+\sectiondivider \linebreak
+
+\printbibliography[title={Peer reviewed papers \& conference proceedings\vspace{0.2em}},keyword=peer_reviewed, heading=subbibliography]
+\sectiondivider \linebreak
+
+%\printbibliography[title={Peer reviewed papers\vspace{0.2em}},type=article, heading=subbibliography]
+%\sectiondivider \linebreak
+%
+%\printbibliography[title={Peer reviewed conference proceedings\vspace{0.2em}},type=inproceedings, heading=subbibliography]
+%\sectiondivider \linebreak
+
+\printbibliography[title={Book chapters\vspace{0.2em}},type=incollection, heading=subbibliography]
+\sectiondivider \linebreak
+
+\printbibliography[title={Select presentations\vspace{0.2em}},type=unpublished, heading=subbibliography]
+\end{refsection}
+
+
+%\end{minipage} 
+\end{document}  \documentclass[]{article}
