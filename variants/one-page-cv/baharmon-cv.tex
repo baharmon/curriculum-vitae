@@ -1,0 +1,139 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)file:///D:/curriculum-vitae/variants/one-page-cv/developercv.cls
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{developercv} % 8-12pt recommended
+\usepackage[backend=biber, style=authoryear, sorting=ydnt, natbib=true, url=true, doi=false, maxnames=24]{biblatex}
+\addbibresource{publications.bib}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.475\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	% Name
+	\colorbox{black}{{\huge\textcolor{white}{\textbf{\MakeUppercase{Brendan Harmon}}}}} 
+%	% Last name
+%	\colorbox{black}{{\huge\textcolor{white}{\textbf{\MakeUppercase{Harmon }}}}} 
+	
+\end{minipage}
+\begin{minipage}[t]{0.25\textwidth}
+	\vspace{-\baselineskip} 
+%	\icon{MapMarker}{8}{Baton Rouge}\\
+	\icon{At}{8}{\href{mailto:baharmon@lsu.edu}{baharmon@lsu.edu}}\\
+	\icon{Phone}{8}{1 919 622 8414}\\
+	
+\end{minipage}
+\begin{minipage}[t]{0.25\textwidth}
+	\vspace{-\baselineskip}
+	\icon{Globe}{8}{\href{https://baharmon.github.io}{baharmon.github.io}}\\	
+%	\icon{Github}{8}{\href{https://github.com/baharmon}{github.com/baharmon}}\\
+	\aicon{Orcid}{8}{\href{https://orcid.org/0000-0002-6218-9318}{0000-0002-6218-9318}}\\
+\end{minipage}
+
+\vspace{6pt}
+
+{\Large Assistant Professor of Landscape Architecture \par} 
+
+\vspace{6pt}
+
+\includegraphics[width=5cm]{images/lsu_art_design_logo.pdf}
+
+\vspace{6pt}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2017\\\footnotesize{}}
+		{Postdoctoral Fellow}
+		{North Carolina State University}
+		{Geospatial Analytics
+		}
+	\entry
+		{2013 -- 2017}
+		{PhD in Design}
+		{North Carolina State University}
+		{Co-major in Forestry and Environmental Science}
+	\entry
+		{2010 -- 2012}
+		{Master's of Philosophy in Geography}
+		{University of Oxford}
+		{Focus in Biodiversity, Conservation, and Management}
+	\entry
+		{2005 -- 2008}
+		{Master's of Landscape Architecture}
+		{Harvard Graduate School of Design}
+		{}
+	\entry
+		{2001 -- 2005}
+		{Bachelor's of Art}
+		{Sewanee: the University of the South}
+		{Major in Art History}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\vspace*{-0.25cm}
+\cvsect{Teaching and Research}
+
+\begin{entrylist}
+	\entry
+		{2017 -- present}
+		{Assistant Professor}
+		{Louisiana State University}
+		{Landscape Architecture}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\vspace*{-0.25cm}
+\cvsect{Significant Publications}
+\nocite{*}
+\setlength\bibitemsep{0.75em}
+
+\printbibliography[title={}, keyword=significant, heading=none]
+
+%----------------------------------------------------------------------------------------
+%	GRANTS
+%----------------------------------------------------------------------------------------
+
+\cvsect{Relevant Grants}
+
+Serrano, Nicholas and \textbf{Brendan Harmon}. 
+Rosedown Plantation 3D Scan and Documentation. 
+National Park Service Historic Preservation Fund Grant. Louisiana State Historic Preservation Office. 
+2020-2021. \$39,903.\\
+
+\end{document}
