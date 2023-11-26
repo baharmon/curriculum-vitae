@@ -21,7 +21,7 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[10pt]{developercv} % 8-12pt recommended
-\usepackage[backend=biber, style=authoryear, sorting=ydnt, natbib=true, url=true, doi=false, maxnames=24]{biblatex}
+\usepackage[backend=biber, style=authoryear, sorting=ydnt, natbib=true, isbn=false, url=true, doi=false, maxnames=24]{biblatex}
 \addbibresource{publications.bib}
 
 %----------------------------------------------------------------------------------------
@@ -32,22 +32,22 @@
 %	TITLE AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+\begin{minipage}[t]{0.37\textwidth} % 45% of the page width for name
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
 	% First name
 	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Brendan}}}}} 
 	% Last name
-	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Harmon }}}}} 
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Harmon~}}}}} 
 	
 \end{minipage}
-\begin{minipage}[t]{0.275\textwidth}
+\begin{minipage}[t]{0.3\textwidth}
 	\vspace{-\baselineskip} 
 	\icon{MapMarker}{12}{Baton Rouge}\\
 	\icon{At}{12}{\href{mailto:baharmon@lsu.edu}{baharmon@lsu.edu}}\\
 	\icon{Phone}{12}{1 919 622 8414}\\
 	
 \end{minipage}
-\begin{minipage}[t]{0.275\textwidth}
+\begin{minipage}[t]{0.32\textwidth}
 	\vspace{-\baselineskip}
 	\icon{Globe}{12}{\href{https://baharmon.github.io}{baharmon.github.io}}\\	
 	\icon{Github}{12}{\href{https://github.com/baharmon}{github.com/baharmon}}\\
@@ -64,38 +64,6 @@
 \includegraphics[width=6cm]{images/lsu_art_design_logo.pdf}
 
 \vspace{12pt}
-
-%%----------------------------------------------------------------------------------------
-%%	INTRODUCTION, SKILLS AND TECHNOLOGIES
-%%----------------------------------------------------------------------------------------
-%
-%\cvsect{Research Interests}
-%%\newline
-%
-%\begin{minipage}[t]{0.25\textwidth}
-%\textbf{Geospatial Science}
-%\end{minipage}
-%\begin{minipage}[t]{0.75\textwidth}
-%%erosion modeling \textbullet{}
-%landscape evolution \textbullet{}
-%computational ecology \textbullet{}
-%lidar \& drone analytics\\
-%%\textbullet{}
-%%geovisualization\\
-%\end{minipage}
-%
-%\begin{minipage}[t]{0.25\textwidth}
-%\textbf{Computational Design}
-%\end{minipage}
-%\begin{minipage}[t]{0.75\textwidth}
-%%generative design \textbullet{}
-%%creative coding \textbullet{}
-%%tangible interfaces \textbullet{}
-%ecological robotics \textbullet{}
-%digital fabrication \textbullet{}
-%human-computer interaction\\
-%\end{minipage}
-
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
@@ -142,25 +110,24 @@
 %		{Landscape Architecture\\
 %		}
 	\entry
-		{2017 -- present \\ 2023 -- present}
+		{2017 -- present\\}
 		{Assistant Professor}
 		{Louisiana State University}
-		{Graduate Coordinator\\
-		Landscape Architecture}
+		{Landscape Architecture}
 	\entry
-		{2017\\\footnotesize{}}
+		{2017\\}
 		{Postdoctoral Fellow}
 		{North Carolina State University}
 		{Geospatial Analytics\\
 		%\texttt{Python}\slashsep\texttt{GRASS}
 		}
 	\entry
-		{2013 -- 2017\\\footnotesize{}}
+		{2013 -- 2017\\}
 		{Instructor}
 		{North Carolina State University}
 		{Landscape Architecture}
 	\entry
-		{2007 -- 2008\\\footnotesize{}}
+		{2007 -- 2008\\}
 		{3D Teaching Assistant}
 		{Harvard Graduate School of Design}
 		{Fabrication Lab\\
@@ -177,8 +144,6 @@
 		{EDAW|AECOM Guangzhou}
 		{}
 \end{entrylist}
-
-%\clearpage
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS
@@ -211,153 +176,25 @@
 
 \printbibliography[title={\cvsect{Datasets}}, type=dataset, heading=subbibliography]
 
-%\clearpage
-
 %----------------------------------------------------------------------------------------
 %	EXHIBITIONS
 %----------------------------------------------------------------------------------------
 
-\cvsect{Exhibitions}
-
-Nam, Hye Yeon, \textbf{Brendan Harmon}, Ka Hei Cheng, and Samira Awad. \emph{Contingent Dreams}. February 26 - March 1, 2023. ACM TEI Art \& Performance. Copernicus Science Centre, Warsaw, Poland.\\
-
-Nam, Hye Yeon, \textbf{Brendan Harmon}, Michael Pasquier, and Ka Hei Cheng. \emph{Shifting Datum}. Remember Earth? July 30 - September 25, 2022. Contemporary Arts Center of New Orleans, New Orleans, Louisiana, USA, url: \url{https://cacno.org/visual-arts/remember-earth}.\\
-
-Nam, Hye Yeon, \textbf{Brendan Harmon}, and Michael Pasquier. \emph{Shifting Datum}. June 22, 2022. \href{https://cc.acm.org/2022/}{ACM Creativity \& Cognition Art Exhibition}. Istituzione Fondazione Bevilacqua la Masa, Venice, Italy.\\
-
-Nam, Hye Yeon and \textbf{Brendan Harmon}. \emph{Contingent Dreams}. October 2021. \href{https://www.404festival.com}{404 International Festival of Art \& Technology}. url: \url{https://youtu.be/z6zmj4uzvTg}.\\
-
-Nam, Hye Yeon and \textbf{Brendan Harmon}. \emph{Shifting Datum}. May 2019. Baton Rouge Gallery, Baton Rouge, Louisiana, USA, url: \url{https://www.batonrougegallery.org/nam-may2019}.\\
-
+\printbibliography[title={\cvsect{Exhibitions}}, type=artwork, heading=subbibliography]
 
 %----------------------------------------------------------------------------------------
 %	GRANTS
 %----------------------------------------------------------------------------------------
 
-\cvsect{Grants}
-
-Streete, Annicia, \textbf{Brendan Harmon}, and Nicholas Serrano.
-\emph{Recording African American Burial Grounds as Points Clouds}.
-2023 Preservation Technology and Training Grants. 
-National Park Service. 
-2023-2025. \$20,469.00.\\
-
-\textbf{Harmon, Brendan}.
-\emph{The Atlas of Heritage Trees: Digitizing the Big Cypress on Cat Island}.
-Provost's Fund for innovation in Research -- Arts/Humanities Project Support Fund. 
-Louisiana State University. 
-2023-2024. \$3,000.\\
-
-\textbf{Harmon, Brendan}, Hye Yeon Nam, and Carl Motsenbocker.
-\emph{Vertical Harvest: 3D Printed Ceramic Green Wall for the LSU Hill Farm}.
-LSU Student Sustainability Fund. 
-Louisiana State University. 
-2022-2023. \$16,016.\\
-
-\textbf{Harmon, Brendan}, Hye Yeon Nam, Frederick Ostrenko, Jeff Kuehny, Hunter Gilbert, Marcio de Queiroz, and Corina Barbalata. 
-\emph{Autonomous Construction of the Natural and Built Environment}.
-LSU Student Technology Fee. 
-Louisiana State University. 
-2022-2023. \$115,000.\\
-
-Serrano, Nicholas and \textbf{Brendan Harmon}. 
-\emph{Rosedown Plantation 3D Scan and Documentation}. 
-Historic Preservation Fund Grant. 
-National Park Service. 
-2020-2021. \$39,903.\\
-
-Nam, Hye Yeon, Corina Barbalata, \textbf{Brendan Harmon}, Hunter Gilbert, and Marcio de Queiroz.
-\emph{Robots in Nature: Creative Environmental Applications for Robotics}.
-Collaborative Seminar Grant. 
-LSU Center for Collaborative Knowledge.
-2020-2021. \$3,500.\\
-
-Serrano, Nicholas, \textbf{Brendan Harmon}, Christopher Cox, Amy Luther, and Kory Konsoer.
-\emph{Tangibly Teaching Terrain with Mixed Reality Terrain Models}.
-Collaborative Seminar Grant. 
-LSU Center for Collaborative Knowledge.
-2020-2021. \$3,500.\\
-
-\textbf{Harmon, Brendan}, Hye Yeon Nam, Corina Barbalata, Hunter Gilbert, and Marcio de Queiroz.
-\emph{Ecological Robotics}.
-LSU Student Technology Fee. 
-Louisiana State University. 
-2019-2020.	\$77,000.\\
-
-\textbf{Harmon, Brendan}, Hye Yeon Nam, Marcio de Queiroz, Hunter Gilbert, and Tracy Quirk. 
-\emph{Robots in Nature: Human-Robot-Environment Interaction for Advanced Ecosystem Services}. 
-LSU Faculty Research Grant. 
-Louisiana State University. 
-2019-2021. \$72,500.\\
-
-Berkowitz, Zak et al. 
-\emph{Navigate, Fabricate, Simulate}. 
-LSU Student Technology Fee. 
-Louisiana State University. 
-2018-2019.	\$120,000.\\
-
-Birch, Traci, Kris Palagi, and \textbf{Brendan Harmon}. 
-\emph{Improving Quality of Life in the Amite River Watershed through Strategic Community-level Green Infrastructure} Planning. 
-Lamar Family Foundation. 
-2018-2019. \$100,000.\\
-
-\textbf{Harmon, Brendan}, 
-\emph{Dynamic Landscape Evolution}. 
-LSU Council on Research Summer Stipend. 
-Louisiana State University. 
-2018. \$5,000.\\
-
-Berkowitz, Zak et al. 
-\emph{The Mixed Reality Garage: Labs for the Future of Art and Design}. 
-LSU Student Technology Fee. 
-Louisiana State University. 
-2017-2018. \$116,559.\\
-
-de Queiroz, Marcio, Hunter Gilbert, Jason Crow, Derick Ostrenko, \textbf{Brendan Harmon}, and Hye Yeon Nam. 
-\emph{LSU Robotics = Engineering + Art + Design}. 
-LSU Student Technology Fee. 
-Louisiana State University. 
-2017-2018. \$83,325.\\
-
-%Carney, Jeff et al. 
-Birch, Traci, Clinton Willson, Robert Twilley, Niki Pace, Aimee Moles, \textbf{Brendan Harmon}, and Katie Cherry.
-\emph{Inland from the Coast: A multi-scalar approach to regional climate change responses}. 
-Gulf Research Program. 
-National Academy of Science and Robert Wood Johnson Foundation.
-2017-2021. \$3,068,610. Award: 2000008299.
-url: \url{https://css.lsu.edu/project/inland-from-the-coast/}\\
-
-%----------------------------------------------------------------------------------------
-%	MEMBERSHIP / SERVICE
-%----------------------------------------------------------------------------------------
-
-%\cvsect{Membership}
-
-% RGS
-% ESA
-% SESAH
-% CELA
-% ASLA
-% ACM
+\printbibliography[title={\cvsect{Grants}}, keyword=grants, heading=subbibliography]
 
 %----------------------------------------------------------------------------------------
 %	AWARDS
 %----------------------------------------------------------------------------------------
 
-\cvsect{Awards}
+\clearpage
 
-Hye Yeon Nam, \textbf{Brendan Harmon}, and Ka Hei Cheng.
-Type Directors Club Award.
-\emph{Living Typography}.
-2023.\\
-
-Andrew Wright. Faculty advisor: \textbf{Brendan Harmon}. \emph{The Siltcatcher: A Sediment-Capture System for Wetland Creation and Coastal Protection in Western Lake Pontchartrain}. American Society of Landscape Architects. Student Honor Award: General Design. 2020. url: \url{https://www.asla.org/2020studentawards/1267.html}\\
-
-Sophie Lott. Faculty advisor: \textbf{Brendan Harmon}. ASLA Louisiana Chapter. Student Merit Award. \emph{Re-Ar-Range Ave}. 2020.\\
-
-Hayden Hammons, Taylor Jacobsen, Nguyet Nguyen, Betsy Peterson, Tanvi Shah, Xi Stich, and Andrew Wright. Faculty advisor: \textbf{Brendan Harmon}. ASLA Louisiana Chapter. Student Merit Award. \emph{The Hungry River}. 2019\\
-
-William O'Mahoney and Chenfeng Lu. Faculty advisor: \textbf{Brendan Harmon}. ASLA Louisiana Chapter. Student Merit Award. \emph{Elmer’s Island Wildlife Refuge}. 2018.\\
+\printbibliography[title={\cvsect{Awards}}, keyword=awards, heading=subbibliography]
 
 %----------------------------------------------------------------------------------------
 %	COURSES
@@ -426,6 +263,18 @@ S 2022\\
 
 %\cvsect{Theses Advised}
 
+
 %----------------------------------------------------------------------------------------
+%	MEMBERSHIP / SERVICE
+%----------------------------------------------------------------------------------------
+
+%\cvsect{Membership}
+
+% RGS
+% ESA
+% SESAH
+% CELA
+% ASLA
+% ACM
 
 \end{document}

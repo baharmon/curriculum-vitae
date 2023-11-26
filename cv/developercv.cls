@@ -67,13 +67,13 @@
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 
-\usepackage[default]{lato}
-%\usepackage[default]{raleway}
-%\usepackage[defaultsans]{droidsans}
-%\usepackage{cmbright}
-%\usepackage{fetamont}
-%\usepackage[default]{gillius}
-%\usepackage{roboto}
+\usepackage{fontspec}
+\usepackage{amsmath}
+\usepackage{xfrac,unicode-math}
+\setmainfont{IBM Plex Serif}
+\setsansfont{IBM Plex Sans}
+\setmonofont[Scale=0.9]{IBM Plex Mono}
+\setmathfont{XITS Math}
 
 \renewcommand*\familydefault{\sfdefault} % Force the sans-serif version of any font used
 
