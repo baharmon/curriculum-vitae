@@ -1,26 +1,24 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Developer CV
-% LaTeX Template
-% Version 1.0 (28/1/19)
+% Title: Curriculum Vitae
 %
-% This template originates from:
-% http://www.LaTeXTemplates.com
+% Author:
+% Brendan Harmon
 %
-% Authors:
+% Template: Design CV
+% Derived from Developer CV by
 % Jan Vorisek (jan@vorisek.me)
-% Based on a template by Jan Küster (info@jankuester.com)
-% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+% Jan Küster (info@jankuester.com)
+% Vel (vel@LaTeXTemplates.com)
 %
 % License:
-% The MIT License (see included LICENSE file)
-%
+% The MIT License
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[10pt]{developercv} % 8-12pt recommended
+\documentclass[10pt]{developercv}
 \usepackage[backend=biber, style=authoryear, sorting=ydnt, natbib=true, isbn=false, url=true, doi=false, maxnames=24]{biblatex}
 \addbibresource{publications.bib}
 
@@ -32,12 +30,10 @@
 %	TITLE AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.37\textwidth} % 45% of the page width for name
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	% First name
+\begin{minipage}[t]{0.37\textwidth}
+	\vspace{-\baselineskip}
 	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Brendan}}}}} 
-	% Last name
-	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Harmon~}}}}} 
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Harmon\hspace{0.4em}}}}}} 
 	
 \end{minipage}
 \begin{minipage}[t]{0.3\textwidth}
@@ -57,7 +53,7 @@
 
 \vspace{16pt}
 
-{\huge Assistant Professor of Landscape Architecture \par} 
+{\huge Associate Professor of Landscape Architecture \par} 
 
 \vspace{8pt}
 
@@ -87,7 +83,7 @@
 		{2005 -- 2008}
 		{Master's of Landscape Architecture}
 		{Harvard Graduate School of Design}
-		{}
+		{\vspace*{-1em}}
 	\entry
 		{2001 -- 2005}
 		{Bachelor's of Art}
@@ -104,23 +100,25 @@
 
 \begin{entrylist}
 	\entry
+		{2024 -- present}
+		{Associate Professor}
+		{Louisiana State University}
+		{Landscape Architecture}
+	\entry
 		{2023 -- present}
 		{Graduate Coordinator}
 		{Louisiana State University}
-		{Landscape Architecture
-		}
+		{\vspace*{-1em}}
 	\entry
-		{2017 -- present}
+		{2017 -- 2024}
 		{Assistant Professor}
 		{Louisiana State University}
-		{Landscape Architecture}
+		{\vspace*{-1em}}
 	\entry
 		{2017}
 		{Postdoctoral Fellow}
 		{North Carolina State University}
-		{Geospatial Analytics%\\
-		%\texttt{Python}\slashsep\texttt{GRASS}
-		}
+		{Geospatial Analytics}
 	\entry
 		{2013 -- 2017}
 		{Instructor}
@@ -130,8 +128,7 @@
 		{2007 -- 2008}
 		{3D Teaching Assistant}
 		{Harvard Graduate School of Design}
-		{Fabrication Lab
-		}
+		{Fabrication Lab}
 \end{entrylist}
 
 \vspace*{-0.4cm}
@@ -152,49 +149,49 @@
 \nocite{*}
 \setlength\bibitemsep{0.75em}
 
-\printbibliography[title={\cvsect{Books}}, type=book, heading=subbibliography]
+\printbibliography[title={\cvsect{Books}\vspace*{-2em}}, type=book, heading=subbibliography]
 
-\printbibliography[title={\cvsect{Papers}}, keyword=peer_reviewed, heading=subbibliography]
-
-\clearpage
-
-\printbibliography[title={\cvsect{Chapters}}, type=incollection, heading=subbibliography]
-
-\printbibliography[title={\cvsect{Select presentations}}, type=unpublished, heading=subbibliography]
+\printbibliography[title={\cvsect{Papers}\vspace*{-2em}}, keyword=peer_reviewed, heading=subbibliography]
 
 \clearpage
 
-\printbibliography[title={\cvsect{Reports}}, type=report, heading=subbibliography]
+\printbibliography[title={\cvsect{Chapters}\vspace*{-2em}}, type=incollection, heading=subbibliography]
+
+\printbibliography[title={\cvsect{Select presentations}\vspace*{-2em}}, type=unpublished, heading=subbibliography]
+
+\clearpage
+
+\printbibliography[title={\cvsect{Reports}\vspace*{-2em}}, type=report, heading=subbibliography]
 
 %----------------------------------------------------------------------------------------
 %	SOFTWARE
 %----------------------------------------------------------------------------------------
 
-\printbibliography[title={\cvsect{Software}}, type=software, heading=subbibliography]
+\printbibliography[title={\cvsect{Software}\vspace*{-2em}}, type=software, heading=subbibliography]
 
 %----------------------------------------------------------------------------------------
 %	DATASETS
 %----------------------------------------------------------------------------------------
 
-\printbibliography[title={\cvsect{Datasets}}, type=dataset, heading=subbibliography]
+\printbibliography[title={\cvsect{Datasets}\vspace*{-2em}}, type=dataset, heading=subbibliography]
 
 %----------------------------------------------------------------------------------------
 %	EXHIBITIONS
 %----------------------------------------------------------------------------------------
 
-\printbibliography[title={\cvsect{Exhibitions}}, type=artwork, heading=subbibliography]
+\printbibliography[title={\cvsect{Exhibitions}\vspace*{-2em}}, type=artwork, heading=subbibliography]
 
 %----------------------------------------------------------------------------------------
 %	GRANTS
 %----------------------------------------------------------------------------------------
 
-\printbibliography[title={\cvsect{Grants}}, keyword=grants, heading=subbibliography]
+\printbibliography[title={\cvsect{Grants}\vspace*{-2em}}, keyword=grants, heading=subbibliography]
 
 %----------------------------------------------------------------------------------------
 %	AWARDS
 %----------------------------------------------------------------------------------------
 
-\printbibliography[title={\cvsect{Awards}}, keyword=awards, heading=subbibliography]
+\printbibliography[title={\cvsect{Awards}\vspace*{-2em}}, keyword=awards, heading=subbibliography]
 
 %----------------------------------------------------------------------------------------
 %	COURSES
@@ -268,7 +265,6 @@ S 2022\\
 %----------------------------------------------------------------------------------------
 
 %\cvsect{Theses Advised}
-
 
 %----------------------------------------------------------------------------------------
 %	MEMBERSHIP / SERVICE

@@ -1,19 +1,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Developer CV
-% LaTeX Class
-% Version 1.0 (28/1/19)
+% Author:
+% Brendan Harmon
 %
-% This class originates from:
-% http://www.LaTeXTemplates.com
-%
-% Authors:
+% Template: Design CV
+% Derived from Developer CV by
 % Jan Vorisek (jan@vorisek.me)
-% Based on a template by Jan Küster (info@jankuester.com)
-% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+% Jan Küster (info@jankuester.com)
+% Vel (vel@LaTeXTemplates.com)
 %
 % License:
-% The MIT License (see included LICENSE file)
-%
+% The MIT License
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
