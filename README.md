@@ -1,9 +1,18 @@
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/license/mit)
 
 # Curriculum Vitae
 
-My curriculum vitae based on the LaTeX template by
-[Debarghya Das](https://github.com/deedy/Deedy-Resume)
-under the Apache License 2.0.
+My curriculum vitae
+typeset in XeLaTeX with
+IBM Plex,
+XITS Math,
+Font Awesome, and
+Academic Icons.
+Derived from the
+Developer CV template by
+Jan Vorisek (jan@vorisek.me),
+Jan Küster (info@jankuester.com), and
+Vel (vel@LaTeXTemplates.com).
+Released under The MIT License.
 
 ![Brendan Harmon's CV](baharmon-cv.png)
