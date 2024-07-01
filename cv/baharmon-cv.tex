@@ -19,8 +19,34 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[10pt]{designcv}
-\usepackage[backend=biber, style=authoryear, sorting=ydnt, natbib=true, isbn=false, url=true, doi=false, maxnames=24]{biblatex}
+\usepackage{nameref}
+\usepackage[
+backend=biber,
+block=space,
+%block=ragged,
+defernumbers=true,
+datamodel=software,
+style=authoryear,
+sorting=ydnt,
+natbib=true,
+bibencoding=utf8,
+abbreviate=false,
+url=true,
+doi=true,
+maxnames=36
+]{biblatex}
+\setlength\bibitemsep{0.5\baselineskip}
+\setcounter{biburlnumpenalty}{9000}
+\setcounter{biburllcpenalty}{9000}
+\setcounter{biburlucpenalty}{8000}
 \addbibresource{publications.bib}
+\usepackage{software-biblatex}
+\ExecuteBibliographyOptions{
+swhid=false,
+swlabels=false,
+license=true
+}
+\PassOptionsToPackage{hyphens}{url}
 
 %----------------------------------------------------------------------------------------
 
