@@ -38,6 +38,10 @@
 
 \usepackage{moresize} % Provides more font size commands (\HUGE and \ssmall)
 
+\usepackage{nameref}
+
+\usepackage{multicol}
+
 %----------------------------------------------------------------------------------------
 %	PAGE LAYOUT
 %----------------------------------------------------------------------------------------
@@ -62,7 +66,6 @@
 
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
-
 \usepackage{fontspec}
 \usepackage{amsmath}
 \usepackage{xfrac,unicode-math}
@@ -70,13 +73,11 @@
 \setsansfont{IBM Plex Sans}
 \setmonofont[Scale=0.9]{IBM Plex Mono}
 \setmathfont{XITS Math}
-
 \renewcommand*\familydefault{\sfdefault} % Force the sans-serif version of any font used
+\usepackage{fontawesome} % Required for FontAwesome icons
+\usepackage{academicons} % Required for Academic Icons
 
 %------------------------------------------------
-
-\usepackage{fontawesome} % Required for FontAwesome icons
-\usepackage{academicons}
 
 % Command to output an icon in a black square box with text to the right
 \newcommand{\icon}[3]{% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text

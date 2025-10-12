@@ -20,7 +20,6 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[10pt]{designcv}
-\usepackage{nameref}
 \usepackage[
 backend=biber,
 block=space,
@@ -34,7 +33,8 @@ bibencoding=utf8,
 abbreviate=false,
 url=true,
 doi=true,
-maxnames=36
+maxnames=36,
+defernumbers=true
 ]{biblatex}
 \setlength\bibitemsep{0.5\baselineskip}
 \setcounter{biburlnumpenalty}{9000}
@@ -219,6 +219,106 @@ license=true
 
 \printbibliography[title={\cvsect{Awards}\vspace*{-2em}}, keyword=awards, heading=subbibliography]
 
+
+%----------------------------------------------------------------------------------------
+%	REVIEWS
+%----------------------------------------------------------------------------------------
+
+%\clearpage
+
+\cvsect{Reviews}
+
+% journal
+\begin{minipage}[t]{0.65\textwidth}
+Geosciences\\
+Sustainability\\
+ISPRS International Journal of Geo-Information\\
+Frontiers in Ecology and Evolution\\
+Geographic Information Science \& Tech.~Body of Knowledge\\
+Journal of Open Source Software\\
+Environmental Earth Sciences\\
+ACM Designing Interactive Systems\\
+ACM Creativity and Cognition\\
+ACM Tangible, Embedded, and Embodied Interaction\\
+International Journal of Architectural Computing\\
+Environmental Monitoring and Assessment\\
+Landscape Research Record\\
+Digital Landscape Architecture\\
+ASCA Intersections Research Conference\\
+\end{minipage}
+\hfill
+% reviews
+\begin{minipage}[t]{0.05\textwidth}
+1\\
+1\\
+4\\
+1\\
+1\\
+1\\
+1\\
+1\\
+4\\
+1\\
+1\\
+1\\
+5\\
+13\\
+5\\
+\end{minipage}
+\hfill
+% years
+\begin{minipage}[t]{0.15\textwidth}
+2018\\
+2018\\
+2018--2021\\
+2019\\
+2019\\
+2020\\
+2020\\
+2021\\
+2023, 2025\\
+2025\\
+2023\\
+2024\\
+2018--2024\\
+2024--2025\\
+2025\\
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	PANELS
+%----------------------------------------------------------------------------------------
+
+\clearpage
+
+\cvsect{Panels}
+
+% organization
+\begin{minipage}[t]{0.35\textwidth}
+National Science Foundation\\
+Louisiana State University\\
+\end{minipage}
+\hfill
+% panels
+\begin{minipage}[t]{0.3\textwidth}
+Review Panel\\
+Big Idea Review Panel\\
+\end{minipage}
+\hfill
+% reviews
+\begin{minipage}[t]{0.1\textwidth}
+5\\
+20\\
+\end{minipage}
+% years
+\hfill
+\begin{minipage}[t]{0.15\textwidth}
+2021\\
+2022\\
+\end{minipage}
+
+
 %----------------------------------------------------------------------------------------
 %	SERVICE
 %----------------------------------------------------------------------------------------
@@ -233,7 +333,7 @@ GRASS Development Team\\
 GRASS Developers Summit\\
 \ \\
 \textbf{Louisiana State University}\\
-Exploratory Committee on AI, Machine Learning, \& Data Science\\
+Exploratory Committee on AI\\ %, Machine Learning, \& Data Science\\
 Elements Test User Group\\
 \ \\
 \textbf{LSU College of Art \& Design}\\
@@ -306,170 +406,94 @@ Chair\\
 \hfill
 
 %----------------------------------------------------------------------------------------
-%	REVIEWS
+%	COURSES
 %----------------------------------------------------------------------------------------
 
-\clearpage
+\begin{multicols}{2}
 
-\cvsect{Reviews}
+\printbibliography[title={\cvsect{LSU DDes Courses}\vspace*{-2em}}, keyword=lsu, keyword=ddes, heading=subbibliography]
 
-% journal
-\begin{minipage}[t]{0.65\textwidth}
-Geosciences\\
-Sustainability\\
-ISPRS International Journal of Geo-Information\\
-Frontiers in Ecology and Evolution\\
-Geographic Information Science \& Tech.~Body of Knowledge\\
-Journal of Open Source Software\\
-Environmental Earth Sciences\\
-ACM Designing Interactive Systems\\
-ACM Creativity and Cognition\\
-International Journal of Architectural Computing\\
-Environmental Monitoring and Assessment\\
-Landscape Research Record\\
-Digital Landscape Architecture\\
-ASCA Intersections Research Conference\\
-\end{minipage}
-\hfill
-% reviews
-\begin{minipage}[t]{0.05\textwidth}
-1\\
-1\\
-4\\
-1\\
-1\\
-1\\
-1\\
-1\\
-4\\
-1\\
-1\\
-5\\
-13\\
-5\\
-\end{minipage}
-\hfill
-% years
-\begin{minipage}[t]{0.15\textwidth}
-2018\\
-2018\\
-2018--2021\\
-2019\\
-2019\\
-2020\\
-2020\\
-2021\\
-2023, 2025\\
-2023\\
-2024\\
-2018--2024\\
-2024--2025\\
-2025\\
-\end{minipage}
+\printbibliography[title={\cvsect{LSU MLA Courses}\vspace*{-2em}}, keyword=lsu, keyword=mla, heading=subbibliography]
 
-%----------------------------------------------------------------------------------------
-%	PANELS
-%----------------------------------------------------------------------------------------
+\printbibliography[title={\cvsect{LSU BLA Courses}\vspace*{-2em}}, keyword=lsu, keyword=bla, heading=subbibliography]
 
-\cvsect{Panels}
+\printbibliography[title={\cvsect{NCSU MLA Courses}\vspace*{-2em}}, keyword=ncsu, keyword=mla, heading=subbibliography]
 
-% organization
-\begin{minipage}[t]{0.35\textwidth}
-National Science Foundation\\
-Louisiana State University\\
-\end{minipage}
-\hfill
-% panels
-\begin{minipage}[t]{0.3\textwidth}
-Review Panel\\
-Big Idea Review Panel\\
-\end{minipage}
-\hfill
-% reviews
-\begin{minipage}[t]{0.1\textwidth}
-5\\
-20\\
-\end{minipage}
-% years
-\hfill
-\begin{minipage}[t]{0.15\textwidth}
-2021\\
-2022\\
-\end{minipage}
+\end{multicols}
 
 %----------------------------------------------------------------------------------------
 %	COURSES
 %----------------------------------------------------------------------------------------
 
-\cvsect{Courses}
-
-% courses
-\begin{minipage}[t]{0.3\textwidth} 
-\textbf{NCSU MLA}\\
-GIS for Designers\\
-\ \\
-\textbf{LSU BLA}\\
-Landscape Planning\\
-Representation III\\
-Advanced Topics Studio\\
-Urban Design Studio\\
-\ \\
-\textbf{LSU MLA}\\
-Water Systems Studio\\
-Media II\\
-Media III\\
-Advanced Topics Studio I\\
-Advanced Topics Studio II\\
-Thesis\\
-GIS for Designers\\
-Ecological Robotics\\
-\end{minipage}
-% years
-\begin{minipage}[t]{0.2\textwidth} 
-\ \\
-F 2014-2016\\
-\ \\
-\ \\
-F 2019-2022\\
-S 2018-2023\\
-F 2019-2023\\
-F 2024\\
-\ \\
-\ \\
-F 2017-2018\\
-S 2018-2023\\
-S 2017-2024\\
-F 2019-2023\\
-S 2018-2019\\
-S 2018-2020\\
-F 2019-2022\\
-S 2019\\
-\end{minipage}
-% courses
-\begin{minipage}[t]{0.3\textwidth}
-\ \\
-Research Methods\\
-Thesis Preparation\\
-Emerging Paradigms\\
-Design Research\\
-\ \\
-\textbf{LSU DDes}\\
-Digital Humanities\\
-Special Topics\\
-\end{minipage}
-\hfill
-% years
-\begin{minipage}[t]{0.2\textwidth}
-\ \\
-F 2023\\
-S 2024\\
-F 2024\\
-S 2025\\
-\ \\
-\ \\
-F 2018\\
-S 2022\\
-\end{minipage}
-\hfill
+%\cvsect{Courses}
+%
+%% courses
+%\begin{minipage}[t]{0.3\textwidth} 
+%\textbf{NCSU MLA}\\
+%GIS for Designers\\
+%\ \\
+%\textbf{LSU BLA}\\
+%Landscape Planning\\
+%Representation III\\
+%Advanced Topics Studio\\
+%Urban Design Studio\\
+%\ \\
+%\textbf{LSU MLA}\\
+%Water Systems Studio\\
+%Media II\\
+%Media III\\
+%Advanced Topics Studio I\\
+%\end{minipage}
+%% years
+%\begin{minipage}[t]{0.2\textwidth} 
+%\ \\
+%F 2014-2016\\
+%\ \\
+%\ \\
+%F 2019-2022\\
+%S 2018-2023\\
+%F 2019-2023\\
+%F 2024\\
+%\ \\
+%\ \\
+%F 2017-2018\\
+%S 2018-2023\\
+%S 2017-2024\\
+%F 2019-2023\\
+%\end{minipage}
+%% courses
+%\begin{minipage}[t]{0.3\textwidth}
+%\ \\
+%Advanced Topics Studio II\\
+%Thesis\\
+%GIS for Designers\\
+%Ecological Robotics\\
+%Research Methods\\
+%Thesis Preparation\\
+%Emerging Paradigms\\
+%Design Research\\
+%\ \\
+%\textbf{LSU DDes}\\
+%Digital Humanities\\
+%Special Topics\\
+%\end{minipage}
+%\hfill
+%% years
+%\begin{minipage}[t]{0.2\textwidth}
+%\ \\
+%S 2018-2019\\
+%S 2018-2020\\
+%F 2019-2022\\
+%S 2019\\
+%F 2023\\
+%S 2024\\
+%F 2024\\
+%S 2025\\
+%\ \\
+%\ \\
+%F 2018\\
+%S 2022\\
+%\end{minipage}
+%\hfill
 
 \end{document}
