@@ -2,17 +2,10 @@
 
 # Curriculum Vitae
 
-My curriculum vitae
-typeset in XeLaTeX with
-IBM Plex,
-XITS Math,
-Font Awesome, and
-Academic Icons.
-Derived from the
-Developer CV template by
-Jan Vorisek (jan@vorisek.me),
-Jan Küster (info@jankuester.com), and
-Vel (vel@LaTeXTemplates.com).
+My curriculum vitae typeset in XeLaTeX with
+IBM Plex, XITS Math, Font Awesome, and Academic Icons.
+Derived from the Developer CV template by
+Jan Vorisek, Jan Küster, and Vel. 
 Released under The MIT License.
 
 ![Brendan Harmon's CV](baharmon-cv.png)

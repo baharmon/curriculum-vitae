@@ -42,6 +42,10 @@
 
 \usepackage{multicol}
 
+\usepackage{microtype}
+
+\usepackage{ragged2e}
+
 %----------------------------------------------------------------------------------------
 %	PAGE LAYOUT
 %----------------------------------------------------------------------------------------
@@ -69,11 +73,13 @@
 \usepackage{fontspec}
 \usepackage{amsmath}
 \usepackage{xfrac,unicode-math}
-\setmainfont{IBM Plex Serif}
-\setsansfont{IBM Plex Sans}
-\setmonofont[Scale=0.9]{IBM Plex Mono}
+\usepackage[DefaultFeatures={Ligatures=Common}]{plex-otf}
+% \setmainfont{IBM Plex Serif}
+% \setsansfont{IBM Plex Sans}
+% \setmonofont[Scale=0.9]{IBM Plex Mono}
 \setmathfont{XITS Math}
-\renewcommand*\familydefault{\sfdefault} % Force the sans-serif version of any font used
+\renewcommand*\familydefault{\sfdefault}
+% \renewcommand*\familydefault{\sfdefault} % Force the sans-serif version of any font used
 \usepackage{fontawesome} % Required for FontAwesome icons
 \usepackage{academicons} % Required for Academic Icons
 

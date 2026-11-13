@@ -7,9 +7,7 @@
 % Template: Design CV
 % Engine: XeLaTeX & Biber
 % Derived from Developer CV by
-% Jan Vorisek (jan@vorisek.me)
-% Jan Küster (info@jankuester.com)
-% Vel (vel@LaTeXTemplates.com)
+% Jan Vorisek, Jan Küster, & Vel
 %
 % License:
 % The MIT License
@@ -75,7 +73,6 @@ license=true
 	\icon{Globe}{12}{\href{https://baharmon.github.io}{baharmon.github.io}}\\	
 	\icon{Github}{12}{\href{https://github.com/baharmon}{github.com/baharmon}}\\
 	\aicon{Orcid}{12}{\href{https://orcid.org/0000-0002-6218-9318}{0000-0002-6218-9318}}\\
-%	\aicon{OSF}{12}{\href{https://osf.io/xhvp4/}{osf.io/xhvp4}}\\
 \end{minipage}
 
 \vspace{16pt}
@@ -103,17 +100,17 @@ license=true
 		{Co-major in Forestry \& Environmental Science}
 	\entry
 		{2010 -- 2012}
-		{Master's of Philosophy in Geography} %\& the Environment
+		{Master of Philosophy in Geography} %\& the Environment
 		{University of Oxford}
-		{Focus in Biodiversity, Conservation, \& Management}
+		{Biodiversity, Conservation, \& Management}
 	\entry
 		{2005 -- 2008}
-		{Master's of Landscape Architecture}
+		{Master in Landscape Architecture}
 		{Harvard Graduate School of Design}
 		{\vspace*{-1em}}
 	\entry
 		{2001 -- 2005}
-		{Bachelor's of Art}
+		{Bachelor of Arts}
 		{Sewanee: the University of the South}
 		{Major in Art History}
 \end{entrylist}
@@ -197,15 +194,12 @@ license=true
 
 \printbibliography[title={\cvsect{Datasets}\vspace*{-2em}}, type=dataset, heading=subbibliography]
 
-\clearpage
 
 %----------------------------------------------------------------------------------------
 %	EXHIBITIONS
 %----------------------------------------------------------------------------------------
 
 \printbibliography[title={\cvsect{Exhibitions}\vspace*{-2em}}, type=artwork, heading=subbibliography]
-
-\clearpage
 
 %----------------------------------------------------------------------------------------
 %	GRANTS
@@ -219,13 +213,11 @@ license=true
 
 \printbibliography[title={\cvsect{Awards}\vspace*{-2em}}, keyword=awards, heading=subbibliography]
 
-\clearpage
-
 %----------------------------------------------------------------------------------------
 %	PANELS
 %----------------------------------------------------------------------------------------
 
-\cvsect{Panels}
+\cvsect{Proposal Review Panels}
 
 % organization
 \begin{minipage}[t]{0.35\textwidth}
@@ -252,6 +244,32 @@ Big Idea Review Panel\\
 \end{minipage}
 
 %----------------------------------------------------------------------------------------
+%	CHAIR
+%----------------------------------------------------------------------------------------
+
+\cvsect{Conference Chair}
+
+% Organization
+\begin{minipage}[t]{0.35\textwidth}
+CELA\\
+\end{minipage}
+\hfill
+% Role
+\begin{minipage}[t]{0.3\textwidth}
+Theme Track Co-Chair\\
+\end{minipage}
+\hfill
+% Reviews
+\begin{minipage}[t]{0.1\textwidth}
+55\\
+\end{minipage}
+% Years
+\hfill
+\begin{minipage}[t]{0.15\textwidth}
+2027\\
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
 %	REVIEWS
 %----------------------------------------------------------------------------------------
 
@@ -267,13 +285,13 @@ Geographic Information Science \& Tech.~Body of Knowledge\\
 Journal of Open Source Software\\
 Environmental Earth Sciences\\
 ACM Designing Interactive Systems\\
-ACM Creativity and Cognition\\
-ACM Tangible, Embedded, and Embodied Interaction\\
 International Journal of Architectural Computing\\
 Environmental Monitoring and Assessment\\
 Landscape Research Record\\
-Digital Landscape Architecture\\
+ACM Creativity and Cognition\\
+ACM Tangible, Embedded, and Embodied Interaction\\
 ASCA Intersections Research Conference\\
+Digital Landscape Architecture\\
 \end{minipage}
 \hfill
 % reviews
@@ -286,13 +304,13 @@ ASCA Intersections Research Conference\\
 1\\
 1\\
 1\\
+1\\
+1\\
+5\\
 4\\
 1\\
-1\\
-1\\
 5\\
-20\\
-5\\
+25\\
 \end{minipage}
 \hfill
 % years
@@ -305,13 +323,13 @@ ASCA Intersections Research Conference\\
 2020\\
 2020\\
 2021\\
-2023, 2025\\
-2025\\
 2023\\
 2024\\
 2018--2024\\
-2024--2026\\
+2023, 2025\\
 2025\\
+2025\\
+2024--2027\\
 \end{minipage}
 
 
@@ -378,7 +396,7 @@ Member\\
 \hfill
 \begin{minipage}[t]{0.15\textwidth}
 \ \\
-2017--present\\
+2017--2025\\
 2017--2018\\
 2022--2023\\
 2022\\
@@ -420,16 +438,24 @@ Chair\\
 %	COURSES
 %----------------------------------------------------------------------------------------
 
+\cvsect{Teaching}
+
+{
+
+\DeclareFieldFormat{title}{#1}
+
 \begin{multicols}{2}
 
-\printbibliography[title={\cvsect{LSU DDes Courses}\vspace*{-2em}}, keyword=lsu, keyword=ddes, heading=subbibliography]
+\printbibliography[title={\normalsize \textbf{LSU DDes Courses}}, keyword=lsu, keyword=ddes, heading=subbibliography]
 
-\printbibliography[title={\cvsect{LSU MLA Courses}\vspace*{-2em}}, keyword=lsu, keyword=mla, heading=subbibliography]
+\printbibliography[title={\normalsize \textbf{LSU MLA Courses}}, keyword=lsu, keyword=mla, heading=subbibliography]
 
-\printbibliography[title={\cvsect{LSU BLA Courses}\vspace*{-2em}}, keyword=lsu, keyword=bla, heading=subbibliography]
+\printbibliography[title={\normalsize \textbf{LSU BLA Courses}}, keyword=lsu, keyword=bla, heading=subbibliography]
 
-\printbibliography[title={\cvsect{NCSU MLA Courses}\vspace*{-2em}}, keyword=ncsu, keyword=mla, heading=subbibliography]
+\printbibliography[title={\normalsize \textbf{NCSU MLA Courses}}, keyword=ncsu, keyword=mla, heading=subbibliography]
 
 \end{multicols}
+
+}
 
 \end{document}
